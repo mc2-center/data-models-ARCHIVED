@@ -1,7 +1,4 @@
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/mc2-center/data-models?label=latest%20release&display_name=release&style=flat-square">
-<img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/mc2-center/data-models?style=flat-square&color=orange">
-<img alt="GitHub" src="https://img.shields.io/github/license/mc2-center/data-models?style=flat-square&color=red">
-<br/><br/>
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/mc2-center/data-models?label=latest%20release&display_name=release&style=flat-square"> <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/mc2-center/data-models?style=flat-square&color=orange"> <img alt="GitHub" src="https://img.shields.io/github/license/mc2-center/data-models?style=flat-square&color=red">
 
 # CCKP Data Models
 
