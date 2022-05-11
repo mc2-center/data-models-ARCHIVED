@@ -9,7 +9,7 @@ The format is based on [Keep a Changelog] and will adhere to [Semantic Versionin
 Track upcoming/planned changes to the data models.
 - ...
 
-## [1.0.0] - 2022-05-04
+## [1.0.0] - 2022-05-09
 
 ### Added 
 - Initial pages for the repo, including .gitignore, README, CHANGELOG
