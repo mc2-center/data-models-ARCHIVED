@@ -14,9 +14,9 @@ synapse:
 
 manifest:
   # if making many manifests, just include name prefix
-  title: 'PersonView.Manifest'
+  title: 'GrantView.Manifest'
   # to make all manifests enter only 'all manifests'
-  data_type: 'PersonView'
+  data_type: 'GrantView'
   
 
 model:
