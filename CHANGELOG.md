@@ -60,7 +60,7 @@ Track upcoming/planned changes to the data models.
 ### Fixed
 - Valid values for Publication Assay, Publication Tumor Type, and Publication Tissue. Values were missing or mismatched.
 
-## [2.0.0] - 2022-06-28
+## [2.0.0](https://github.com/mc2-center/data-models/releases/tag/v2.0.0) - 2022-06-28
 
 ### Added
 - Data input/output format, publication assay, dataset assay, publication tumor type, dataset tumor type, publication tissue, dataset species valid values with newly added cv terms. 
