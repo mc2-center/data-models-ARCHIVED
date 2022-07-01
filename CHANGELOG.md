@@ -9,6 +9,22 @@ The format is based on [Keep a Changelog] and will adhere to [Semantic Versionin
 Track upcoming/planned changes to the data models.
 - ...
 
+## [2.0.1] - 2022-07-01
+
+### Added
+- "NCI Clinical and Translational Exploratory/Developmental Studies" as a valid value for Consortium Name attributes.
+- "Mechano-genetics" as a Theme Name valid value.
+- "University of Texas at Austin" to Grant Institution Name and "UT Austin" to Grant Institution Alias
+- "Stony Brook University" to Grant Institiuoin Name and "SBU" to Grant Institution Alias.
+- "St. Jude Children's Research Hospital" to Grant Instituion Name and StJude to Grant Institution Alias
+- CA260432 as a Grant Number valid value for View componenets
+
+### Changed
+- "New York University School of Medicine" to "New York University"
+- "City Of Hope National Medical Center" to "City of Hope"
+- "Not Associated" as a valid valued for Grant Number attributes to "Affiliated/Non-Grant Associated"
+- Dataset Pubmed Id Required to TRUE
+
 ## [2.0.0](https://github.com/mc2-center/data-models/releases/tag/v2.0.0) - 2022-06-28
 
 ### Added

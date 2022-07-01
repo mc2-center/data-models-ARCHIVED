@@ -14548,7 +14548,10 @@
                     "@id": "bts:CA264620"
                 },
                 {
-                    "@id": "bts:NotAssociated"
+                    "@id": "bts:CA260432"
+                },
+                {
+                    "@id": "bts:Affiliated/Non-GrantAssociated"
                 }
             ],
             "sms:displayName": "Tool Grant Number",
@@ -14591,6 +14594,9 @@
                 },
                 {
                     "@id": "bts:HTAN"
+                },
+                {
+                    "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
                 }
             ],
             "sms:displayName": "Tool Consortium Name",
@@ -15022,7 +15028,10 @@
                     "@id": "bts:CA264620"
                 },
                 {
-                    "@id": "bts:NotAssociated"
+                    "@id": "bts:CA260432"
+                },
+                {
+                    "@id": "bts:Affiliated/Non-GrantAssociated"
                 }
             ],
             "sms:displayName": "Publication Grant Number",
@@ -15065,6 +15074,9 @@
                 },
                 {
                     "@id": "bts:HTAN"
+                },
+                {
+                    "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
                 }
             ],
             "sms:displayName": "Publication Consortium Name",
@@ -15113,6 +15125,9 @@
                 },
                 {
                     "@id": "bts:Epigenetics"
+                },
+                {
+                    "@id": "bts:Mechano-genetics"
                 }
             ],
             "sms:displayName": "Publication Theme Name",
@@ -15531,7 +15546,10 @@
                     "@id": "bts:CA264620"
                 },
                 {
-                    "@id": "bts:NotAssociated"
+                    "@id": "bts:CA260432"
+                },
+                {
+                    "@id": "bts:Affiliated/Non-GrantAssociated"
                 }
             ],
             "sms:displayName": "Dataset Grant Number",
@@ -15574,6 +15592,9 @@
                 },
                 {
                     "@id": "bts:HTAN"
+                },
+                {
+                    "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
                 }
             ],
             "sms:displayName": "Dataset Consortium Name",
@@ -15622,6 +15643,9 @@
                 },
                 {
                     "@id": "bts:Epigenetics"
+                },
+                {
+                    "@id": "bts:Mechano-genetics"
                 }
             ],
             "sms:displayName": "Dataset Theme Name",
@@ -15644,7 +15668,7 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Dataset Pubmed Id",
-            "sms:required": "sms:false",
+            "sms:required": "sms:true",
             "sms:validationRules": [
                 "list"
             ]
@@ -16033,7 +16057,10 @@
                     "@id": "bts:CA264620"
                 },
                 {
-                    "@id": "bts:NotAssociated"
+                    "@id": "bts:CA260432"
+                },
+                {
+                    "@id": "bts:Affiliated/Non-GrantAssociated"
                 }
             ],
             "sms:displayName": "Person Grant Number",
@@ -16076,6 +16103,9 @@
                 },
                 {
                     "@id": "bts:HTAN"
+                },
+                {
+                    "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
                 }
             ],
             "sms:displayName": "Person Consortium Name",
@@ -16598,6 +16628,9 @@
                 },
                 {
                     "@id": "bts:Epigenetics"
+                },
+                {
+                    "@id": "bts:Mechano-genetics"
                 }
             ],
             "sms:displayName": "Grant Theme Name",
@@ -16681,7 +16714,7 @@
                     "@id": "bts:MassachusettsGeneralHospital"
                 },
                 {
-                    "@id": "bts:CityOfHopeNationalMedicalCenter"
+                    "@id": "bts:CityOfHope"
                 },
                 {
                     "@id": "bts:WistarInstitute"
@@ -16756,7 +16789,7 @@
                     "@id": "bts:UniversityofCalifornia;Berkeley"
                 },
                 {
-                    "@id": "bts:NewYorkUniversitySchoolofMedicine"
+                    "@id": "bts:NewYorkUniversity"
                 },
                 {
                     "@id": "bts:BarrowNeurologicalInstitute"
@@ -16814,6 +16847,15 @@
                 },
                 {
                     "@id": "bts:DartmouthCollege"
+                },
+                {
+                    "@id": "bts:UniversityofTexasatAustin"
+                },
+                {
+                    "@id": "bts:StonyBrookUniversity"
+                },
+                {
+                    "@id": "bts:St.JudeChildren'sResearchHospital"
                 }
             ],
             "sms:displayName": "Grant Institution Name",
@@ -17030,6 +17072,15 @@
                 },
                 {
                     "@id": "bts:UD"
+                },
+                {
+                    "@id": "bts:SBU"
+                },
+                {
+                    "@id": "bts:StJude"
+                },
+                {
+                    "@id": "bts:UTAustin"
                 }
             ],
             "sms:displayName": "Grant Institution Alias",
@@ -17091,6 +17142,9 @@
                 },
                 {
                     "@id": "bts:HTAN"
+                },
+                {
+                    "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
                 }
             ],
             "sms:displayName": "Grant Consortium Name",
@@ -56504,10 +56558,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:NotAssociated",
+            "@id": "bts:CA260432",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "NotAssociated",
+            "rdfs:label": "CA260432",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolGrantNumber"
@@ -56516,7 +56570,24 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Not Associated",
+            "sms:displayName": "CA260432",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Affiliated/Non-GrantAssociated",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Affiliated/Non-GrantAssociated",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ToolGrantNumber"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Affiliated/Non-Grant Associated",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -56636,6 +56707,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "HTAN",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "NCIClinicalandTranslationalExploratory/DevelopmentalStudies",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ToolConsortiumName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NCI Clinical and Translational Exploratory/Developmental Studies",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -56772,6 +56860,40 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Evolution",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Mechano-genetics",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Mechano-genetics",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationThemeName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Mechano-genetics",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NotAssociated",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "NotAssociated",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:FileGrantNumber"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Not Associated",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -57099,10 +57221,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:CityOfHopeNationalMedicalCenter",
+            "@id": "bts:CityOfHope",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "CityOfHopeNationalMedicalCenter",
+            "rdfs:label": "CityOfHope",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:GrantInstitutionName"
@@ -57111,7 +57233,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "City Of Hope National Medical Center",
+            "sms:displayName": "City Of Hope",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -57524,10 +57646,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:NewYorkUniversitySchoolofMedicine",
+            "@id": "bts:NewYorkUniversity",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "NewYorkUniversitySchoolofMedicine",
+            "rdfs:label": "NewYorkUniversity",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:GrantInstitutionName"
@@ -57536,7 +57658,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "New York University School of Medicine",
+            "sms:displayName": "New York University",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -57860,6 +57982,57 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Dartmouth College",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UniversityofTexasatAustin",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UniversityofTexasatAustin",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "University of Texas at Austin",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:StonyBrookUniversity",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "StonyBrookUniversity",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Stony Brook University",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:St.JudeChildren'sResearchHospital",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "St.JudeChildren'sResearchHospital",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "St. Jude Children's Research Hospital",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -58897,6 +59070,57 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "UD",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SBU",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "SBU",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionAlias"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "SBU",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:StJude",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "StJude",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionAlias"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "StJude",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UTAustin",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UTAustin",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionAlias"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "UT Austin",
             "sms:required": "sms:false",
             "sms:validationRules": []
         }
