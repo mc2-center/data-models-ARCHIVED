@@ -9,7 +9,7 @@ The format is based on [Keep a Changelog] and will adhere to [Semantic Versionin
 Track upcoming/planned changes to the data models.
 - ...
 
-## [2.0.1] - 2022-07-01
+## [2.0.1](https://github.com/mc2-center/data-models/releases/tag/v2.0.1) - 2022-07-01
 
 ### Added
 - "NCI Clinical and Translational Exploratory/Developmental Studies" as a valid value for Consortium Name attributes.
