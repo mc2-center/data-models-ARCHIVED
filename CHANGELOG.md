@@ -8,6 +8,56 @@ The format is based on [Keep a Changelog] and will adhere to [Semantic Versionin
 
 Track upcoming/planned changes to the data models.
 - ...
+## [2.1.0](https://github.com/mc2-center/data-models/releases/tag/v2.1.0) - 2022-08-11
+
+### Added
+- "Project View" componenent that includes project attributes.
+- Cancer Metab, Proc IEEE Int Conf Comput Vis, FASEB J, J Assist Reprod Genet, Phys Rev Res, Hematol Oncol, Cancer Biol Ther, IEEE/ACM Trans Comput Biol Bioinform, Molecules, Biostatistics, Eur Biophys J, Exp Hematol as Publication Journal Valid Values
+- "Dataset Url" attribute and add to DependsOn for Dataset comonent and Dataset View component.
+- "Data Index" as valid value for Tool Input/Output Data attributes
+- "Chemical Data Format" as valid value for Tool Input/Output format attributes
+- Comparative Genomics" as valid value for Tool Topic
+- "Platform Development", "Immunotherapy", "Computational Model Development", "Experimental Model Development", "Method/Assay Development", "Platform Development", and "Mechano-resistance" as valid values for Publication View, Dataset View, Grant View, and Project View
+- "University of Arizona" as valid value for Grant Instituion Name and "UA" as valid value for Grant Institution Alias
+- "University of Chicago" as value value for Grant Instituion Name and "UChicago" as valid value for Grant Instituion Alias
+- "University of Illinois" as valid value for Grant Institution Name and Grant Instituion Alias
+- "University of Miami" and "U Miami" as valid values for Grant Instituion Name and Grant Instituion Alias, respectively.
+- "University of New South Wales" and "UNSW" as valid values for Grant Instituion Name and Grant Instituion Alias, respectively.
+- "CCBIR", "MetNet", "PDMC" as valid values to Tool Consortium Name, Publication Consortium Name, Dataset Consortium Name, Grant Consortium Name, and Project Consortium Name
+- "University of Texas Southwestern Medical Center" as valid value for Grant Institution Name and "UT Southwestern" as valid value for Grant Institution Alias
+- "Rockefeller University" as valid value for Grant Institution Name and Grant Instituion Alias
+- "Cold Spring Harbor Laboratory" and Jackson Laboratory as valid values for Grant Institution Name and "CSHL" and "Jackson Laboratory" as valid values for Grant Instituion Alias
+- "Lurie Children's Hospital" as valid value for Grant Institiion Name and Grant Insitution Alias
+- "University of Alabama at Birmingham" as valid value for Grant Institution Alias and "UAB" as Grant Instition Alias valid value
+- "University of Texas MD Anderson Cancer Center" as valid values for Grant Instituion Name and Grant Instituion Alias
+
+### Changed
+- Specify which components joined tables (e.g. Tool Grant dependsOn Tool and Grant) depend on in DependsOn column.
+
+### Removed
+- "Tool Id" attribute and remove from DependsOn for Tool Component, Tool Grant component, and Tool View Component
+- "Tool Grant Id" attribute and remove from DependsOn for Tool Grant Component and update description to specify that Tool Grant table joins the tool and grant tables based on their uuids.
+- "Publication Id" attribute and remove from DependsOn for Publication component, Publication Grant component, and Publication View component 
+- "Publication Grant Id" attribute and remove from DependsOn for Publication Grant component and update description to specify that Publication Grant table joins the publication and grant tables based on their uuids.
+- "Dataset Id" attribute and remove from DependsOn for Dataset component, Dataset Grant component, and Dataset View component.
+-  "Dataset Grant Id" attribute and remove from DependsOn for Dataset Grant component and update description to specify that Dataset Grant table joins the dataset and grant tables based on their uuids.
+- "Consortium Id" attribute and remove from DependsOn for Consortium component, Consortium Grant Component, and Person Consortium component
+- "Consortium Grant Id" attribute and remove from DependsOn for Consoritum Grant component and update description to specify that Consortium Grant table joins the consortium and grant tables based on their uuids.
+- "Grant Id" attribute and remove from DependsOn for cooresponding components.
+- "Project Id" attribute and remove from DependsOn for Project component.
+- "Person Id" attribute and remove from DependsOn for Person component, Person View component, and Person Consortium Component.
+- "Person Consoritum" attribute and remove from Depends On for Person Consortium table and update description to specify that Person Consortium table joins the Person and Consortium tables based on their uuids.
+- "Theme Id" attribute and remove from DependsOn for Theme componenet and Theme Grant Component.
+- "Theme Grant Id" attribute and remove from Depends On for Theme Grant table and update description to specify that Theme Grant table joins the Theme and Grant tables based on their uuids.
+- "Institution Id" attribute and remove from DependsOn for Instituion componenet and Institution Grant Component.
+- "Institution Grant" attribute and remove from Depends On for Instituion Grant table and update description to specify that Instituion Grant table joins the Institution and Grant tables based on their uuids.
+- "File Id" attribute and remove from DependsOn for File componenet, File View component, and File Grant component.
+- "File Grant" attribute and remove from Depends On for File Grant table and update description to specify that File Grant table joins the File and Grant tables based on their uuids.
+- "Publication Tool Name" from Publication View component. 
+- "Tool Dataset Alias" from Tool View component. 
+- "Dataset External Link" attribute.
+
+### Fixed
 
 ## [2.0.1](https://github.com/mc2-center/data-models/releases/tag/v2.0.1) - 2022-07-01
 

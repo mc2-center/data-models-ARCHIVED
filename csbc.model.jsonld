@@ -14276,6 +14276,15 @@
                 },
                 {
                     "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
+                },
+                {
+                    "@id": "bts:CCBIR"
+                },
+                {
+                    "@id": "bts:MetNet"
+                },
+                {
+                    "@id": "bts:PDMC"
                 }
             ],
             "sms:displayName": "Tool Consortium Name",
@@ -14354,9 +14363,6 @@
                 },
                 {
                     "@id": "bts:PublicationJournal"
-                },
-                {
-                    "@id": "bts:PubmedId"
                 },
                 {
                     "@id": "bts:PubmedId"
@@ -14731,6 +14737,15 @@
                 },
                 {
                     "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
+                },
+                {
+                    "@id": "bts:CCBIR"
+                },
+                {
+                    "@id": "bts:MetNet"
+                },
+                {
+                    "@id": "bts:PDMC"
                 }
             ],
             "sms:displayName": "Publication Consortium Name",
@@ -14754,34 +14769,55 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:ComputationalResource"
+                    "@id": "bts:Metastasis"
                 },
                 {
                     "@id": "bts:Heterogeneity"
                 },
                 {
-                    "@id": "bts:DrugResistance/Sensitivity"
-                },
-                {
-                    "@id": "bts:Tumor-Immune"
-                },
-                {
                     "@id": "bts:Microenvironment"
-                },
-                {
-                    "@id": "bts:Metastasis"
                 },
                 {
                     "@id": "bts:Metabolism"
                 },
                 {
+                    "@id": "bts:ComputationalResource"
+                },
+                {
                     "@id": "bts:Evolution"
+                },
+                {
+                    "@id": "bts:Tumor-Immune"
+                },
+                {
+                    "@id": "bts:DrugResistance/Sensitivity"
                 },
                 {
                     "@id": "bts:Epigenetics"
                 },
                 {
                     "@id": "bts:Mechano-genetics"
+                },
+                {
+                    "@id": "bts:PlatformDevelopment"
+                },
+                {
+                    "@id": "bts:Immunotherapy"
+                },
+                {
+                    "@id": "bts:Mechano-resistance"
+                },
+                {
+                    "@id": "bts:ComputationalModelDevelopment"
+                },
+                {
+                    "@id": "bts:Method/AssayDevelopment"
+                },
+                {
+                    "@id": "bts:PlatformDevelopment"
+                },
+                {
+                    "@id": "bts:ExperimentalModelDevelopment"
                 }
             ],
             "sms:displayName": "Publication Theme Name",
@@ -15227,6 +15263,15 @@
                 },
                 {
                     "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
+                },
+                {
+                    "@id": "bts:CCBIR"
+                },
+                {
+                    "@id": "bts:MetNet"
+                },
+                {
+                    "@id": "bts:PDMC"
                 }
             ],
             "sms:displayName": "Dataset Consortium Name",
@@ -15250,34 +15295,55 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:ComputationalResource"
+                    "@id": "bts:Metastasis"
                 },
                 {
                     "@id": "bts:Heterogeneity"
                 },
                 {
-                    "@id": "bts:DrugResistance/Sensitivity"
-                },
-                {
-                    "@id": "bts:Tumor-Immune"
-                },
-                {
                     "@id": "bts:Microenvironment"
-                },
-                {
-                    "@id": "bts:Metastasis"
                 },
                 {
                     "@id": "bts:Metabolism"
                 },
                 {
+                    "@id": "bts:ComputationalResource"
+                },
+                {
                     "@id": "bts:Evolution"
+                },
+                {
+                    "@id": "bts:Tumor-Immune"
+                },
+                {
+                    "@id": "bts:DrugResistance/Sensitivity"
                 },
                 {
                     "@id": "bts:Epigenetics"
                 },
                 {
                     "@id": "bts:Mechano-genetics"
+                },
+                {
+                    "@id": "bts:PlatformDevelopment"
+                },
+                {
+                    "@id": "bts:Immunotherapy"
+                },
+                {
+                    "@id": "bts:Mechano-resistance"
+                },
+                {
+                    "@id": "bts:ComputationalModelDevelopment"
+                },
+                {
+                    "@id": "bts:Method/AssayDevelopment"
+                },
+                {
+                    "@id": "bts:PlatformDevelopment"
+                },
+                {
+                    "@id": "bts:ExperimentalModelDevelopment"
                 }
             ],
             "sms:displayName": "Dataset Theme Name",
@@ -15735,6 +15801,15 @@
                 },
                 {
                     "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
+                },
+                {
+                    "@id": "bts:CCBIR"
+                },
+                {
+                    "@id": "bts:MetNet"
+                },
+                {
+                    "@id": "bts:PDMC"
                 }
             ],
             "sms:displayName": "Person Consortium Name",
@@ -16254,6 +16329,27 @@
                 },
                 {
                     "@id": "bts:Mechano-genetics"
+                },
+                {
+                    "@id": "bts:PlatformDevelopment"
+                },
+                {
+                    "@id": "bts:Immunotherapy"
+                },
+                {
+                    "@id": "bts:Mechano-resistance"
+                },
+                {
+                    "@id": "bts:ComputationalModelDevelopment"
+                },
+                {
+                    "@id": "bts:Method/AssayDevelopment"
+                },
+                {
+                    "@id": "bts:PlatformDevelopment"
+                },
+                {
+                    "@id": "bts:ExperimentalModelDevelopment"
                 }
             ],
             "sms:displayName": "Grant Theme Name",
@@ -16479,6 +16575,42 @@
                 },
                 {
                     "@id": "bts:St.JudeChildren'sResearchHospital"
+                },
+                {
+                    "@id": "bts:UniversityofArizona"
+                },
+                {
+                    "@id": "bts:UniversityofChicago"
+                },
+                {
+                    "@id": "bts:UniversityofIllinois"
+                },
+                {
+                    "@id": "bts:UniversityofMiami"
+                },
+                {
+                    "@id": "bts:UniversityofNewSouthWales"
+                },
+                {
+                    "@id": "bts:UniversityofTexasSouthwesternMedicalCenter"
+                },
+                {
+                    "@id": "bts:RockefellerUniversity"
+                },
+                {
+                    "@id": "bts:ColdSpringHarborLaboratory"
+                },
+                {
+                    "@id": "bts:JacksonLaboratory"
+                },
+                {
+                    "@id": "bts:LurieChildren'sHospital"
+                },
+                {
+                    "@id": "bts:UniversityofAlabamaatBirmingham"
+                },
+                {
+                    "@id": "bts:UniversityofTexasMDAndersonCancerCenter"
                 }
             ],
             "sms:displayName": "Grant Institution Name",
@@ -16704,6 +16836,42 @@
                 },
                 {
                     "@id": "bts:UTAustin"
+                },
+                {
+                    "@id": "bts:UA"
+                },
+                {
+                    "@id": "bts:UChicago"
+                },
+                {
+                    "@id": "bts:UniversityofIllinois"
+                },
+                {
+                    "@id": "bts:UMiami"
+                },
+                {
+                    "@id": "bts:UNSW"
+                },
+                {
+                    "@id": "bts:UTSouthwestern"
+                },
+                {
+                    "@id": "bts:RockefellerUniversity"
+                },
+                {
+                    "@id": "bts:CSHL"
+                },
+                {
+                    "@id": "bts:JacksonLaboratory"
+                },
+                {
+                    "@id": "bts:LurieChildren'sHospital"
+                },
+                {
+                    "@id": "bts:UAB"
+                },
+                {
+                    "@id": "bts:UniversityofTexasMDAndersonCancerCenter"
                 }
             ],
             "sms:displayName": "Grant Institution Alias",
@@ -16768,6 +16936,15 @@
                 },
                 {
                     "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
+                },
+                {
+                    "@id": "bts:CCBIR"
+                },
+                {
+                    "@id": "bts:MetNet"
+                },
+                {
+                    "@id": "bts:PDMC"
                 }
             ],
             "sms:displayName": "Grant Consortium Name",
@@ -16871,6 +17048,27 @@
                 },
                 {
                     "@id": "bts:Mechano-genetics"
+                },
+                {
+                    "@id": "bts:PlatformDevelopment"
+                },
+                {
+                    "@id": "bts:Immunotherapy"
+                },
+                {
+                    "@id": "bts:Mechano-resistance"
+                },
+                {
+                    "@id": "bts:ComputationalModelDevelopment"
+                },
+                {
+                    "@id": "bts:Method/AssayDevelopment"
+                },
+                {
+                    "@id": "bts:PlatformDevelopment"
+                },
+                {
+                    "@id": "bts:ExperimentalModelDevelopment"
                 }
             ],
             "sms:displayName": "Project Theme Name",
@@ -16916,6 +17114,15 @@
                 },
                 {
                     "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
+                },
+                {
+                    "@id": "bts:CCBIR"
+                },
+                {
+                    "@id": "bts:MetNet"
+                },
+                {
+                    "@id": "bts:PDMC"
                 }
             ],
             "sms:displayName": "Project Consortium Name",
@@ -57074,87 +57281,53 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:ComputationalResource",
+            "@id": "bts:CCBIR",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "ComputationalResource",
+            "rdfs:label": "CCBIR",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:ToolConsortiumName"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Computational Resource",
+            "sms:displayName": "CCBIR",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Heterogeneity",
+            "@id": "bts:MetNet",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Heterogeneity",
+            "rdfs:label": "MetNet",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:ToolConsortiumName"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Heterogeneity",
+            "sms:displayName": "MetNet",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:DrugResistance/Sensitivity",
+            "@id": "bts:PDMC",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "DrugResistance/Sensitivity",
+            "rdfs:label": "PDMC",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:ToolConsortiumName"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Drug Resistance/Sensitivity",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Tumor-Immune",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Tumor-Immune",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:PublicationThemeName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Tumor-Immune",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Microenvironment",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Microenvironment",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:PublicationThemeName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Microenvironment",
+            "sms:displayName": "PDMC",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -57176,6 +57349,40 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:Heterogeneity",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Heterogeneity",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationThemeName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Heterogeneity",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Microenvironment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Microenvironment",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationThemeName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Microenvironment",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:Metabolism",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -57189,6 +57396,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Metabolism",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ComputationalResource",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ComputationalResource",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationThemeName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Computational Resource",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -57210,6 +57434,40 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:Tumor-Immune",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Tumor-Immune",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationThemeName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Tumor-Immune",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:DrugResistance/Sensitivity",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "DrugResistance/Sensitivity",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationThemeName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Drug Resistance/Sensitivity",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:Mechano-genetics",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -57223,6 +57481,108 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Mechano-genetics",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PlatformDevelopment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "PlatformDevelopment",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationThemeName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Platform Development",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Immunotherapy",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Immunotherapy",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationThemeName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Immunotherapy",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Mechano-resistance",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Mechano-resistance",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationThemeName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Mechano-resistance",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ComputationalModelDevelopment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ComputationalModelDevelopment",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationThemeName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Computational Model Development",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Method/AssayDevelopment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Method/AssayDevelopment",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationThemeName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Method/Assay Development",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ExperimentalModelDevelopment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ExperimentalModelDevelopment",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationThemeName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Experimental Model Development",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -58383,6 +58743,210 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:UniversityofArizona",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UniversityofArizona",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "University of Arizona",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UniversityofChicago",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UniversityofChicago",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "University of Chicago",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UniversityofIllinois",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UniversityofIllinois",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "University of Illinois",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UniversityofMiami",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UniversityofMiami",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "University of Miami",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UniversityofNewSouthWales",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UniversityofNewSouthWales",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "University of New South Wales",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UniversityofTexasSouthwesternMedicalCenter",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UniversityofTexasSouthwesternMedicalCenter",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "University of Texas Southwestern Medical Center",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:RockefellerUniversity",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "RockefellerUniversity",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Rockefeller University",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ColdSpringHarborLaboratory",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ColdSpringHarborLaboratory",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Cold Spring Harbor Laboratory",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:JacksonLaboratory",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "JacksonLaboratory",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Jackson Laboratory",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:LurieChildren'sHospital",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "LurieChildren'sHospital",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Lurie Children's Hospital",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UniversityofAlabamaatBirmingham",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UniversityofAlabamaatBirmingham",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "University of Alabama at Birmingham",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UniversityofTexasMDAndersonCancerCenter",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UniversityofTexasMDAndersonCancerCenter",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "University of Texas MD Anderson Cancer Center",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:Barrow",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -59467,6 +60031,125 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "UT Austin",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UA",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UA",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionAlias"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "UA",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UChicago",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UChicago",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionAlias"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "UChicago",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UMiami",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UMiami",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionAlias"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "U Miami",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UNSW",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UNSW",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionAlias"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "UNSW",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UTSouthwestern",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UTSouthwestern",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionAlias"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "UT Southwestern",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CSHL",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CSHL",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionAlias"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "CSHL",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UAB",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UAB",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GrantInstitutionAlias"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "UAB",
             "sms:required": "sms:false",
             "sms:validationRules": []
         }
