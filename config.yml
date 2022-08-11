@@ -8,15 +8,16 @@ definitions:
 synapse:
   master_fileview: 'syn23643253'
   manifest_folder: 'manifests'
-  manifest_filename: 'synapse_storage_manifest.csv'
+  manifest_filename: 'synapse_storage_manifest'
   token_creds: 'syn23643259'
   service_acct_creds: 'syn25171627'
 
 manifest:
   # if making many manifests, just include name prefix
-  title: 'GrantView.Manifest'
+  title: 'ToolView.Manifest'
   # to make all manifests enter only 'all manifests'
-  data_type: 'GrantView'
+  data_type: 
+    - 'ToolView'
   
 
 model:
