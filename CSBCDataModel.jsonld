@@ -16214,7 +16214,10 @@
                     "@id": "bts:CA264620"
                 },
                 {
-                    "@id": "bts:NotAssociated"
+                    "@id": "bts:CA260432"
+                },
+                {
+                    "@id": "bts:Affiliated/Non-GrantAssociated"
                 }
             ],
             "sms:displayName": "File Grant Number",
@@ -57583,23 +57586,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Experimental Model Development",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NotAssociated",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NotAssociated",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:FileGrantNumber"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Not Associated",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
