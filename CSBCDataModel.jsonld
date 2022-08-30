@@ -2566,7 +2566,7 @@
             "sms:displayName": "Tool Operation",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -3016,7 +3016,7 @@
             "sms:displayName": "Tool Input Data",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -3466,7 +3466,7 @@
             "sms:displayName": "Tool Output Data",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -3826,7 +3826,7 @@
             "sms:displayName": "Tool Input Format",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -4186,7 +4186,7 @@
             "sms:displayName": "Tool Output Format",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -4238,16 +4238,16 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Bioinformaticsportal"
+                    "@id": "bts:BioinformaticsPortal"
                 },
                 {
-                    "@id": "bts:Command-linetool"
+                    "@id": "bts:Command-LineTool"
                 },
                 {
-                    "@id": "bts:Databaseportal"
+                    "@id": "bts:DatabasePortal"
                 },
                 {
-                    "@id": "bts:Desktopapplication"
+                    "@id": "bts:DesktopApplication"
                 },
                 {
                     "@id": "bts:Library"
@@ -4256,25 +4256,25 @@
                     "@id": "bts:Ontology"
                 },
                 {
-                    "@id": "bts:Plug-in"
+                    "@id": "bts:Plug-In"
                 },
                 {
                     "@id": "bts:Script"
                 },
                 {
-                    "@id": "bts:SPARQLendpoint"
+                    "@id": "bts:SPARQLEndpoint"
                 },
                 {
                     "@id": "bts:Suite"
                 },
                 {
-                    "@id": "bts:Webapplication"
+                    "@id": "bts:WebApplication"
                 },
                 {
                     "@id": "bts:WebAPI"
                 },
                 {
-                    "@id": "bts:Webservice"
+                    "@id": "bts:WebService"
                 },
                 {
                     "@id": "bts:Workbench"
@@ -4283,7 +4283,7 @@
                     "@id": "bts:Workflow"
                 },
                 {
-                    "@id": "bts:Serializedmodel"
+                    "@id": "bts:SerializedModel"
                 },
                 {
                     "@id": "bts:Notebook"
@@ -4295,7 +4295,7 @@
             "sms:displayName": "Tool Type",
             "sms:required": "sms:false",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -4658,7 +4658,7 @@
             "sms:displayName": "Tool Topic",
             "sms:required": "sms:false",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -4688,7 +4688,7 @@
             "sms:displayName": "Tool Operating System",
             "sms:required": "sms:false",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -4715,7 +4715,7 @@
                     "@id": "bts:AppleScript"
                 },
                 {
-                    "@id": "bts:Assemblylanguage"
+                    "@id": "bts:AssemblyLanguage"
                 },
                 {
                     "@id": "bts:AWK"
@@ -4899,12 +4899,18 @@
                 },
                 {
                     "@id": "bts:WDL"
+                },
+                {
+                    "@id": "bts:Nextflow"
+                },
+                {
+                    "@id": "bts:OpenEdgeABL"
                 }
             ],
             "sms:displayName": "Tool Language",
             "sms:required": "sms:false",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -5919,10 +5925,10 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Freeofcharge"
+                    "@id": "bts:FreeofCharge"
                 },
                 {
-                    "@id": "bts:Freeofcharge(withrestrictions)"
+                    "@id": "bts:FreeofCharge(WithRestrictions)"
                 },
                 {
                     "@id": "bts:Commercial"
@@ -5947,13 +5953,13 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Openaccess"
+                    "@id": "bts:OpenAccess"
                 },
                 {
-                    "@id": "bts:Openaccess(withrestrictions)"
+                    "@id": "bts:OpenAccess(WithRestrictions)"
                 },
                 {
-                    "@id": "bts:Restrictedaccess"
+                    "@id": "bts:RestrictedAccess"
                 }
             ],
             "sms:displayName": "Tool Accessibility",
@@ -5992,19 +5998,19 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:APIspecification"
+                    "@id": "bts:APISpecification"
                 },
                 {
-                    "@id": "bts:Biologicaldata"
+                    "@id": "bts:BiologicalData"
                 },
                 {
                     "@id": "bts:Binaries"
                 },
                 {
-                    "@id": "bts:Command-linespecification"
+                    "@id": "bts:Command-LineSpecification"
                 },
                 {
-                    "@id": "bts:Containerfile"
+                    "@id": "bts:ContainerFile"
                 },
                 {
                     "@id": "bts:Icon"
@@ -6013,34 +6019,34 @@
                     "@id": "bts:Screenshot"
                 },
                 {
-                    "@id": "bts:Sourcecode"
+                    "@id": "bts:SourceCode"
                 },
                 {
-                    "@id": "bts:Softwarepackage"
+                    "@id": "bts:SoftwarePackage"
                 },
                 {
-                    "@id": "bts:Testdata"
+                    "@id": "bts:TestData"
                 },
                 {
-                    "@id": "bts:Testscript"
+                    "@id": "bts:TestScript"
                 },
                 {
-                    "@id": "bts:Toolwrapper(CWL)"
+                    "@id": "bts:ToolWrapper(CWL)"
                 },
                 {
-                    "@id": "bts:Toolwrapper(galaxy)"
+                    "@id": "bts:ToolWrapper(Galaxy)"
                 },
                 {
-                    "@id": "bts:Toolwrapper(taverna)"
+                    "@id": "bts:ToolWrapper(Taverna)"
                 },
                 {
-                    "@id": "bts:Toolwrapper(other)"
+                    "@id": "bts:Toolwrapper(Other)"
                 },
                 {
-                    "@id": "bts:VMimage"
+                    "@id": "bts:VMImage"
                 },
                 {
-                    "@id": "bts:Downloadspage"
+                    "@id": "bts:DownloadsPage"
                 },
                 {
                     "@id": "bts:Other"
@@ -6116,19 +6122,19 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:APIdocumentation"
+                    "@id": "bts:APIDocumentation"
                 },
                 {
-                    "@id": "bts:Citationinstructions"
+                    "@id": "bts:CitationInstructions"
                 },
                 {
-                    "@id": "bts:Codeofconduct"
+                    "@id": "bts:CodeofConduct"
                 },
                 {
-                    "@id": "bts:Command-lineoptions"
+                    "@id": "bts:Command-LineOptions"
                 },
                 {
-                    "@id": "bts:Contributionspolicy"
+                    "@id": "bts:ContributionsPolicy"
                 },
                 {
                     "@id": "bts:FAQ"
@@ -6140,22 +6146,22 @@
                     "@id": "bts:Governance"
                 },
                 {
-                    "@id": "bts:Installationinstructions"
+                    "@id": "bts:InstallationInstructions"
                 },
                 {
-                    "@id": "bts:Quickstartguide"
+                    "@id": "bts:QuickStartGuide"
                 },
                 {
-                    "@id": "bts:Usermanual"
+                    "@id": "bts:UserManual"
                 },
                 {
-                    "@id": "bts:Releasenotes"
+                    "@id": "bts:ReleaseNotes"
                 },
                 {
-                    "@id": "bts:Termsofuse"
+                    "@id": "bts:TermsofUse"
                 },
                 {
-                    "@id": "bts:Trainingmaterial"
+                    "@id": "bts:TrainingMaterial"
                 },
                 {
                     "@id": "bts:Other"
@@ -6164,7 +6170,7 @@
             "sms:displayName": "Tool Documentation Type",
             "sms:required": "sms:false",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -6216,16 +6222,16 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Discussionforum"
+                    "@id": "bts:DiscussionForum"
                 },
                 {
-                    "@id": "bts:Galaxyservice"
+                    "@id": "bts:GalaxyService"
                 },
                 {
                     "@id": "bts:Helpdesk"
                 },
                 {
-                    "@id": "bts:Issuetracker"
+                    "@id": "bts:IssueTracker"
                 },
                 {
                     "@id": "bts:Mailinglist"
@@ -6234,19 +6240,19 @@
                     "@id": "bts:Mirror"
                 },
                 {
-                    "@id": "bts:Softwarecatalogue"
+                    "@id": "bts:SoftwareCatalogue"
                 },
                 {
                     "@id": "bts:Repository"
                 },
                 {
-                    "@id": "bts:Socialmedia"
+                    "@id": "bts:SocialMedia"
                 },
                 {
                     "@id": "bts:Service"
                 },
                 {
-                    "@id": "bts:Technicalmonitoring"
+                    "@id": "bts:TechnicalMonitoring"
                 },
                 {
                     "@id": "bts:Other"
@@ -6255,7 +6261,7 @@
             "sms:displayName": "Tool Link Type",
             "sms:required": "sms:false",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -8089,6 +8095,12 @@
                 },
                 {
                     "@id": "bts:ExpHematol"
+                },
+                {
+                    "@id": "bts:Proteomics"
+                },
+                {
+                    "@id": "bts:NPJRegenMed"
                 }
             ],
             "sms:displayName": "Publication Journal",
@@ -8179,7 +8191,7 @@
             "sms:displayName": "Publication Keywords",
             "sms:required": "sms:false",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -8198,7 +8210,7 @@
             "sms:displayName": "Publication Authors",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -9192,12 +9204,15 @@
                 },
                 {
                     "@id": "bts:RNAiScreen"
+                },
+                {
+                    "@id": "bts:InVitroTranslation"
                 }
             ],
             "sms:displayName": "Publication Assay",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -9740,7 +9755,7 @@
             "sms:displayName": "Publication Tumor Type",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -10074,12 +10089,18 @@
                 },
                 {
                     "@id": "bts:Duodenum"
+                },
+                {
+                    "@id": "bts:SinonasalTract"
+                },
+                {
+                    "@id": "bts:Mesenchyme"
                 }
             ],
             "sms:displayName": "Publication Tissue",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -11243,12 +11264,15 @@
                 },
                 {
                     "@id": "bts:RNAiScreen"
+                },
+                {
+                    "@id": "bts:InVitroTranslation"
                 }
             ],
             "sms:displayName": "Dataset Assay",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -11338,7 +11362,7 @@
             "sms:displayName": "Dataset Species",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -11881,7 +11905,7 @@
             "sms:displayName": "Dataset Tumor Type",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -12215,12 +12239,18 @@
                 },
                 {
                     "@id": "bts:Duodenum"
+                },
+                {
+                    "@id": "bts:SinonasalTract"
+                },
+                {
+                    "@id": "bts:Mesenchyme"
                 }
             ],
             "sms:displayName": "Dataset Tissue",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -12744,7 +12774,7 @@
             "sms:displayName": "Alternative Names",
             "sms:required": "sms:false",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -12877,7 +12907,7 @@
             "sms:displayName": "Working Group Participation",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -12910,7 +12940,7 @@
             "sms:displayName": "Chair Roles",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -14236,7 +14266,7 @@
             "sms:displayName": "Tool Grant Number",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -14290,7 +14320,7 @@
             "sms:displayName": "Tool Consortium Name",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -14697,7 +14727,7 @@
             "sms:displayName": "Publication Grant Number",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -14751,7 +14781,7 @@
             "sms:displayName": "Publication Consortium Name",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -14799,9 +14829,6 @@
                     "@id": "bts:Mechano-genetics"
                 },
                 {
-                    "@id": "bts:PlatformDevelopment"
-                },
-                {
                     "@id": "bts:Immunotherapy"
                 },
                 {
@@ -14818,12 +14845,15 @@
                 },
                 {
                     "@id": "bts:ExperimentalModelDevelopment"
+                },
+                {
+                    "@id": "bts:TumorProgression"
                 }
             ],
             "sms:displayName": "Publication Theme Name",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -14842,7 +14872,7 @@
             "sms:displayName": "Publication Dataset Alias",
             "sms:required": "sms:false",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -15223,7 +15253,7 @@
             "sms:displayName": "Dataset Grant Number",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -15277,7 +15307,7 @@
             "sms:displayName": "Dataset Consortium Name",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -15325,9 +15355,6 @@
                     "@id": "bts:Mechano-genetics"
                 },
                 {
-                    "@id": "bts:PlatformDevelopment"
-                },
-                {
                     "@id": "bts:Immunotherapy"
                 },
                 {
@@ -15344,12 +15371,15 @@
                 },
                 {
                     "@id": "bts:ExperimentalModelDevelopment"
+                },
+                {
+                    "@id": "bts:TumorProgression"
                 }
             ],
             "sms:displayName": "Dataset Theme Name",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -15368,7 +15398,7 @@
             "sms:displayName": "Dataset Pubmed Id",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -15761,7 +15791,7 @@
             "sms:displayName": "Person Grant Number",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -15815,7 +15845,7 @@
             "sms:displayName": "Person Consortium Name",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -15834,7 +15864,7 @@
             "sms:displayName": "Person Publications",
             "sms:required": "sms:false",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -15853,7 +15883,7 @@
             "sms:displayName": "Person Datasets",
             "sms:required": "sms:false",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -15872,7 +15902,7 @@
             "sms:displayName": "Person Tools",
             "sms:required": "sms:false",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -16214,13 +16244,16 @@
                     "@id": "bts:CA264620"
                 },
                 {
-                    "@id": "bts:NotAssociated"
+                    "@id": "bts:CA260432"
+                },
+                {
+                    "@id": "bts:Affiliated/Non-GrantAssociated"
                 }
             ],
             "sms:displayName": "File Grant Number",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -16331,9 +16364,6 @@
                     "@id": "bts:Mechano-genetics"
                 },
                 {
-                    "@id": "bts:PlatformDevelopment"
-                },
-                {
                     "@id": "bts:Immunotherapy"
                 },
                 {
@@ -16350,12 +16380,15 @@
                 },
                 {
                     "@id": "bts:ExperimentalModelDevelopment"
+                },
+                {
+                    "@id": "bts:TumorProgression"
                 }
             ],
             "sms:displayName": "Grant Theme Name",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -16394,7 +16427,7 @@
                     "@id": "bts:VanderbiltUniversity"
                 },
                 {
-                    "@id": "bts:IndianaUniversity–PurdueUniversityIndianapolis"
+                    "@id": "bts:IndianaUniversity-PurdueUniversityIndianapolis"
                 },
                 {
                     "@id": "bts:UniversityofCalifornia;SanDiego"
@@ -16616,7 +16649,7 @@
             "sms:displayName": "Grant Institution Name",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -16877,7 +16910,7 @@
             "sms:displayName": "Grant Institution Alias",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -16896,7 +16929,7 @@
             "sms:displayName": "Grant Investigator",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -17050,9 +17083,6 @@
                     "@id": "bts:Mechano-genetics"
                 },
                 {
-                    "@id": "bts:PlatformDevelopment"
-                },
-                {
                     "@id": "bts:Immunotherapy"
                 },
                 {
@@ -17069,12 +17099,15 @@
                 },
                 {
                     "@id": "bts:ExperimentalModelDevelopment"
+                },
+                {
+                    "@id": "bts:TumorProgression"
                 }
             ],
             "sms:displayName": "Project Theme Name",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -17429,7 +17462,7 @@
             "sms:displayName": "Project Grant Number",
             "sms:required": "sms:true",
             "sms:validationRules": [
-                "list"
+                "list like"
             ]
         },
         {
@@ -23723,10 +23756,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Bioinformaticsportal",
+            "@id": "bts:BioinformaticsPortal",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Bioinformaticsportal",
+            "rdfs:label": "BioinformaticsPortal",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolType"
@@ -23735,15 +23768,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Bioinformatics portal",
+            "sms:displayName": "Bioinformatics Portal",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Command-linetool",
+            "@id": "bts:Command-LineTool",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Command-linetool",
+            "rdfs:label": "Command-LineTool",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolType"
@@ -23752,15 +23785,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Command-line tool",
+            "sms:displayName": "Command-Line Tool",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Databaseportal",
+            "@id": "bts:DatabasePortal",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Databaseportal",
+            "rdfs:label": "DatabasePortal",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolType"
@@ -23769,15 +23802,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Database portal",
+            "sms:displayName": "Database Portal",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Desktopapplication",
+            "@id": "bts:DesktopApplication",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Desktopapplication",
+            "rdfs:label": "DesktopApplication",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolType"
@@ -23786,7 +23819,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Desktop application",
+            "sms:displayName": "Desktop Application",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -23808,10 +23841,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Plug-in",
+            "@id": "bts:Plug-In",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Plug-in",
+            "rdfs:label": "Plug-In",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolType"
@@ -23820,7 +23853,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Plug-in",
+            "sms:displayName": "Plug-In",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -23842,10 +23875,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:SPARQLendpoint",
+            "@id": "bts:SPARQLEndpoint",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "SPARQLendpoint",
+            "rdfs:label": "SPARQLEndpoint",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolType"
@@ -23854,7 +23887,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "SPARQL endpoint",
+            "sms:displayName": "SPARQL Endpoint",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -23876,10 +23909,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Webapplication",
+            "@id": "bts:WebApplication",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Webapplication",
+            "rdfs:label": "WebApplication",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolType"
@@ -23888,7 +23921,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Web application",
+            "sms:displayName": "Web Application",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -23910,10 +23943,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Webservice",
+            "@id": "bts:WebService",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Webservice",
+            "rdfs:label": "WebService",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolType"
@@ -23922,7 +23955,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Web service",
+            "sms:displayName": "Web Service",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -23961,10 +23994,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Serializedmodel",
+            "@id": "bts:SerializedModel",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Serializedmodel",
+            "rdfs:label": "SerializedModel",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolType"
@@ -23973,7 +24006,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Serialized model",
+            "sms:displayName": "Serialized Model",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -26018,10 +26051,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Assemblylanguage",
+            "@id": "bts:AssemblyLanguage",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Assemblylanguage",
+            "rdfs:label": "AssemblyLanguage",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolLanguage"
@@ -26030,7 +26063,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Assembly language",
+            "sms:displayName": "Assembly Language",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -27034,6 +27067,40 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "WDL",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Nextflow",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Nextflow",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ToolLanguage"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Nextflow",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:OpenEdgeABL",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "OpenEdgeABL",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ToolLanguage"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "OpenEdge ABL",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -32529,10 +32596,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Freeofcharge",
+            "@id": "bts:FreeofCharge",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Freeofcharge",
+            "rdfs:label": "FreeofCharge",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolCost"
@@ -32541,15 +32608,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Free of charge",
+            "sms:displayName": "Free of Charge",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Freeofcharge(withrestrictions)",
+            "@id": "bts:FreeofCharge(WithRestrictions)",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Freeofcharge(withrestrictions)",
+            "rdfs:label": "FreeofCharge(WithRestrictions)",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolCost"
@@ -32558,7 +32625,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Free of charge (with restrictions)",
+            "sms:displayName": "Free of Charge (With Restrictions)",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -32580,10 +32647,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Openaccess",
+            "@id": "bts:OpenAccess",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Openaccess",
+            "rdfs:label": "OpenAccess",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolAccessibility"
@@ -32592,15 +32659,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Open access",
+            "sms:displayName": "Open Access",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Openaccess(withrestrictions)",
+            "@id": "bts:OpenAccess(WithRestrictions)",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Openaccess(withrestrictions)",
+            "rdfs:label": "OpenAccess(WithRestrictions)",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolAccessibility"
@@ -32609,15 +32676,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Open access (with restrictions)",
+            "sms:displayName": "Open Access (With Restrictions)",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Restrictedaccess",
+            "@id": "bts:RestrictedAccess",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Restrictedaccess",
+            "rdfs:label": "RestrictedAccess",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolAccessibility"
@@ -32626,15 +32693,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Restricted access",
+            "sms:displayName": "Restricted Access",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:APIspecification",
+            "@id": "bts:APISpecification",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "APIspecification",
+            "rdfs:label": "APISpecification",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32643,15 +32710,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "API specification",
+            "sms:displayName": "API Specification",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Biologicaldata",
+            "@id": "bts:BiologicalData",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Biologicaldata",
+            "rdfs:label": "BiologicalData",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32660,7 +32727,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Biological data",
+            "sms:displayName": "Biological Data",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -32682,10 +32749,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Command-linespecification",
+            "@id": "bts:Command-LineSpecification",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Command-linespecification",
+            "rdfs:label": "Command-LineSpecification",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32694,15 +32761,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Command-line specification",
+            "sms:displayName": "Command-Line Specification",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Containerfile",
+            "@id": "bts:ContainerFile",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Containerfile",
+            "rdfs:label": "ContainerFile",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32711,7 +32778,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Container file",
+            "sms:displayName": "Container File",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -32750,10 +32817,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Sourcecode",
+            "@id": "bts:SourceCode",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Sourcecode",
+            "rdfs:label": "SourceCode",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32762,15 +32829,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Source code",
+            "sms:displayName": "Source Code",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Softwarepackage",
+            "@id": "bts:SoftwarePackage",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Softwarepackage",
+            "rdfs:label": "SoftwarePackage",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32779,15 +32846,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Software package",
+            "sms:displayName": "Software Package",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Testdata",
+            "@id": "bts:TestData",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Testdata",
+            "rdfs:label": "TestData",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32796,15 +32863,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Test data",
+            "sms:displayName": "Test Data",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Testscript",
+            "@id": "bts:TestScript",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Testscript",
+            "rdfs:label": "TestScript",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32813,15 +32880,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Test script",
+            "sms:displayName": "Test Script",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Toolwrapper(CWL)",
+            "@id": "bts:ToolWrapper(CWL)",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Toolwrapper(CWL)",
+            "rdfs:label": "ToolWrapper(CWL)",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32830,15 +32897,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Tool wrapper (CWL)",
+            "sms:displayName": "Tool Wrapper (CWL)",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Toolwrapper(galaxy)",
+            "@id": "bts:ToolWrapper(Galaxy)",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Toolwrapper(galaxy)",
+            "rdfs:label": "ToolWrapper(Galaxy)",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32847,15 +32914,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Tool wrapper (galaxy)",
+            "sms:displayName": "Tool Wrapper (Galaxy)",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Toolwrapper(taverna)",
+            "@id": "bts:ToolWrapper(Taverna)",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Toolwrapper(taverna)",
+            "rdfs:label": "ToolWrapper(Taverna)",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32864,15 +32931,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Tool wrapper (taverna)",
+            "sms:displayName": "Tool Wrapper (Taverna)",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Toolwrapper(other)",
+            "@id": "bts:Toolwrapper(Other)",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Toolwrapper(other)",
+            "rdfs:label": "Toolwrapper(Other)",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32881,15 +32948,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Tool wrapper (other)",
+            "sms:displayName": "Tool wrapper (Other)",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:VMimage",
+            "@id": "bts:VMImage",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "VMimage",
+            "rdfs:label": "VMImage",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32898,15 +32965,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "VM image",
+            "sms:displayName": "VM Image",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Downloadspage",
+            "@id": "bts:DownloadsPage",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Downloadspage",
+            "rdfs:label": "DownloadsPage",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDownloadType"
@@ -32915,15 +32982,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Downloads page",
+            "sms:displayName": "Downloads Page",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:APIdocumentation",
+            "@id": "bts:APIDocumentation",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "APIdocumentation",
+            "rdfs:label": "APIDocumentation",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDocumentationType"
@@ -32932,15 +32999,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "API documentation",
+            "sms:displayName": "API Documentation",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Citationinstructions",
+            "@id": "bts:CitationInstructions",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Citationinstructions",
+            "rdfs:label": "CitationInstructions",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDocumentationType"
@@ -32949,15 +33016,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Citation instructions",
+            "sms:displayName": "Citation Instructions",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Codeofconduct",
+            "@id": "bts:CodeofConduct",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Codeofconduct",
+            "rdfs:label": "CodeofConduct",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDocumentationType"
@@ -32966,15 +33033,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Code of conduct",
+            "sms:displayName": "Code of Conduct",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Command-lineoptions",
+            "@id": "bts:Command-LineOptions",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Command-lineoptions",
+            "rdfs:label": "Command-LineOptions",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDocumentationType"
@@ -32983,15 +33050,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Command-line options",
+            "sms:displayName": "Command-Line Options",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Contributionspolicy",
+            "@id": "bts:ContributionsPolicy",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Contributionspolicy",
+            "rdfs:label": "ContributionsPolicy",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDocumentationType"
@@ -33000,7 +33067,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Contributions policy",
+            "sms:displayName": "Contributions Policy",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -33056,10 +33123,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Installationinstructions",
+            "@id": "bts:InstallationInstructions",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Installationinstructions",
+            "rdfs:label": "InstallationInstructions",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDocumentationType"
@@ -33068,15 +33135,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Installation instructions",
+            "sms:displayName": "Installation Instructions",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Quickstartguide",
+            "@id": "bts:QuickStartGuide",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Quickstartguide",
+            "rdfs:label": "QuickStartGuide",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDocumentationType"
@@ -33085,15 +33152,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Quick start guide",
+            "sms:displayName": "Quick Start Guide",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Usermanual",
+            "@id": "bts:UserManual",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Usermanual",
+            "rdfs:label": "UserManual",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDocumentationType"
@@ -33102,15 +33169,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "User manual",
+            "sms:displayName": "User Manual",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Releasenotes",
+            "@id": "bts:ReleaseNotes",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Releasenotes",
+            "rdfs:label": "ReleaseNotes",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDocumentationType"
@@ -33119,15 +33186,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Release notes",
+            "sms:displayName": "Release Notes",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Termsofuse",
+            "@id": "bts:TermsofUse",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Termsofuse",
+            "rdfs:label": "TermsofUse",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDocumentationType"
@@ -33136,15 +33203,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Terms of use",
+            "sms:displayName": "Terms of Use",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Trainingmaterial",
+            "@id": "bts:TrainingMaterial",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Trainingmaterial",
+            "rdfs:label": "TrainingMaterial",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolDocumentationType"
@@ -33153,15 +33220,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Training material",
+            "sms:displayName": "Training Material",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Discussionforum",
+            "@id": "bts:DiscussionForum",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Discussionforum",
+            "rdfs:label": "DiscussionForum",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolLinkType"
@@ -33170,15 +33237,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Discussion forum",
+            "sms:displayName": "Discussion Forum",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Galaxyservice",
+            "@id": "bts:GalaxyService",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Galaxyservice",
+            "rdfs:label": "GalaxyService",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolLinkType"
@@ -33187,7 +33254,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Galaxy service",
+            "sms:displayName": "Galaxy Service",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -33209,10 +33276,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Issuetracker",
+            "@id": "bts:IssueTracker",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Issuetracker",
+            "rdfs:label": "IssueTracker",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolLinkType"
@@ -33221,7 +33288,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Issue tracker",
+            "sms:displayName": "Issue Tracker",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -33260,10 +33327,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Softwarecatalogue",
+            "@id": "bts:SoftwareCatalogue",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Softwarecatalogue",
+            "rdfs:label": "SoftwareCatalogue",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolLinkType"
@@ -33272,7 +33339,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Software catalogue",
+            "sms:displayName": "Software Catalogue",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -33294,10 +33361,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Socialmedia",
+            "@id": "bts:SocialMedia",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Socialmedia",
+            "rdfs:label": "SocialMedia",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolLinkType"
@@ -33306,7 +33373,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Social media",
+            "sms:displayName": "Social Media",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -33328,10 +33395,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Technicalmonitoring",
+            "@id": "bts:TechnicalMonitoring",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Technicalmonitoring",
+            "rdfs:label": "TechnicalMonitoring",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ToolLinkType"
@@ -33340,7 +33407,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Technical monitoring",
+            "sms:displayName": "Technical Monitoring",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -43069,6 +43136,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:NPJRegenMed",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "NPJRegenMed",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationJournal"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NPJ Regen Med",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:16SRibosomalGeneSequencingAssay",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -48526,6 +48610,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:InVitroTranslation",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "InVitroTranslation",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationAssay"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "In Vitro Translation",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:AcinarCellCarcinoma",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -53167,6 +53268,40 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:SinonasalTract",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "SinonasalTract",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationTissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Sinonasal Tract",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Mesenchyme",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Mesenchyme",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationTissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Mesenchyme",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:Boar",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -57485,23 +57620,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:PlatformDevelopment",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "PlatformDevelopment",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:PublicationThemeName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Platform Development",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:Immunotherapy",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -57570,6 +57688,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:PlatformDevelopment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "PlatformDevelopment",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationThemeName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Platform Development",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:ExperimentalModelDevelopment",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -57587,19 +57722,19 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:NotAssociated",
+            "@id": "bts:TumorProgression",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "NotAssociated",
+            "rdfs:label": "TumorProgression",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:FileGrantNumber"
+                    "@id": "bts:PublicationThemeName"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Not Associated",
+            "sms:displayName": "Tumor Progression",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -57723,10 +57858,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:IndianaUniversity–PurdueUniversityIndianapolis",
+            "@id": "bts:IndianaUniversity-PurdueUniversityIndianapolis",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "IndianaUniversity–PurdueUniversityIndianapolis",
+            "rdfs:label": "IndianaUniversity-PurdueUniversityIndianapolis",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:GrantInstitutionName"
@@ -57735,7 +57870,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Indiana University – Purdue University Indianapolis",
+            "sms:displayName": "Indiana University - Purdue University Indianapolis",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
