@@ -8,6 +8,48 @@ The format is based on [Keep a Changelog] and will adhere to [Semantic Versionin
 
 Track upcoming/planned changes to the data models.
 - ...
+
+## [2.1.1](https://github.com/mc2-center/data-models/releases/tag/v2.1.1) - 2022-09-29
+
+### Added
+- "Tumor Progression" to list of valid values for Tool language attribute.
+- "Nextflow" and "OpenEdge ABL" as valid values for Tool Language attribute
+- "Mesenchyme" and "Sinonasal Tract" as valid values for "Publication Tissue" and "Dataset Tissue" attributes
+- "In Vitro Translation" as assay valid value for Publication/Dataset Assay attributes
+- "Proteomics" and "NPJ Regen Med" as Publication Journal Valid Values
+- "LSM" as valid value for Tool Input/Output Format
+- "CA224012" as Grant Number for View componenet valid value
+- "Not Applicable" as valid values for Tool Input/Output Data
+- "HDF", "JSON", "GCTx", "RTF", "GCT" and "HDF5" as valid values for File Format attribute
+- "Modeling" as valid value for Publication/Dataset Assay attributes.
+- "Atypical Teratoid/Rhabdoid Tumor" to tumor type valid value attributes 
+- "Dataset File Formats" attribute with list of valid values (the same as File Format valid values).
+- "Castration-Resistant Prostate Carcinoma" and "Primary Central Nervous System Lymphoma" as valid values for Publication/Dataset Tumor Type attributes
+- "Lymph" as valid value for Publication/Dataset Tissue attributes.
+- "Multiplexed Immunohistochemistry" as valid value for Publication/Dataset Assay.
+- "Multiplexed Immunofluorescence", "3D Bioprinting" as valid values for Publication/Dataset Assay
+- "De Novo Sequencing" as valid value for Tool Operation
+- "Sequence Image" as valid value for Tool Input/Output Data attributes. 
+- "FCS" as valid value for Dataset File Formats attribute
+- "Nasopharyngeal Carcinoma" and "Retinoblastoma" as valid values for Dataset/Publication Tumor Type
+- "Sinonasal Squamous Cell Carcinoma" as Dataset/Publication Tumor Type valid value
+- url validation rule for url/homepage/website attributes
+- int validation rule for Pubmed Id attributes.
+- Unique validatrion rule of aliases and id attributes
+- Regex validation rule for Grant Number and Orcid Id attributes
+- Update View component Grant Number valid values with latest grant numbers
+
+### Changed
+- All "list" validation rules to "list like" because can have 0 or more values.
+
+### Removed
+- "Platform Development" duplicated valid value from Project Theme Name, Grant Theme Name, Dataset Theme Name, and Publication Theme Name
+- Leading white space from "Adrenal Gland" valid value for Publication/Dataset Tissue attributes.
+- Valid values from Publication Journal attribute. 
+
+### Fixed
+- Type in File Format valid values "SRA,TXT" to SRA, TXT - add in a white space
+
 ## [2.1.0](https://github.com/mc2-center/data-models/releases/tag/v2.1.0) - 2022-08-11
 
 ### Added
