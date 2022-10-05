@@ -52,25 +52,3 @@ DM_KEY = {
     'Project Consortium Name': 'Consortium Name',
     'Project Grant Number': 'Grant Number'
 }
-
-# Dictionary of keys in current CV. Values are the keys in the data model.
-CV_KEY = {
-    'operation': 'Tool Operation',
-    'data': 'Tool Input/Output Data',
-    'toolFormat': 'Tool Input/Output Format',
-    'toolType': 'Tool Type',
-    'topic': 'Tool Topic',
-    'operatingSystem': 'Tool Operating System',
-    'language': 'Tool Language',
-    'license': 'Tool License',
-    'cost': 'Tool Cost',
-    'accessibility': 'Tool Accessibility',
-    'downloadType': 'Tool Download Type',
-    'documentationType': 'Tool Documentation Type',
-    'linkType': 'Tool Link Type',
-    'assay': 'Assay',
-    'tumorType': 'Tumor Type',
-    'tissue': 'Tissue',
-    'fileFormat': 'File Format',
-    'species': 'Species'
-}
