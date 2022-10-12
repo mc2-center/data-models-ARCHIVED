@@ -21,7 +21,9 @@ manifest:
     - 'GrantView'
     - 'PublicationView'
     - 'ToolView'
-    - 'FileView'
+    - 'Consortium'
+    - 'Theme'
+  
 
 model:
   input:
