@@ -23,11 +23,14 @@ def get_args():
 
     parser = argparse.ArgumentParser(
         description='Get synapse cv table id and data model file path')
-    parser.add_argument('table_id',
+    parser.add_argument('--table_id',
                         type=str,
+                        default='syn26433610',
                         help='Synapse controlled vocabulary table id')
-    parser.add_argument('file_path',
+    parser.add_argument('--file_path',
                         type=str,
+                        action='store',
+                        required=True,
                         help='File path where data model csv is stored')
 
     return parser.parse_args()
@@ -40,8 +43,8 @@ def get_cv(syn, table):
     cv_df = syn.tableQuery(cv_query).asDataFrame()
 
     # Convert nonpreferredTerms to string from stringList
-    cv_df['nonpreferredTerms'] = cv_df['nonpreferredTerms'].map(str).replace(
-        '[None]', '').str.strip("[|]|'").replace(r'^\s*$', np.nan, regex=True)
+    cv_df['nonpreferredTerms'] = cv_df['nonpreferredTerms'].str.join(
+        ", ").replace("", np.nan)
 
     return cv_df
 
@@ -115,12 +118,11 @@ def attribute_check(compare_df, data_model_dict):
                 f"\n\nThe attribute '{attribute}' appears to not have valid values in the data model. It will be deleted from the controlled vocabulary. Continue on and delete from CV? Type 'y' for yes, or 'n' for No."
             )
 
-            if choice == 'y':
+            if choice.lower().startswith('y'):
                 print(
                     f"\n\nDeleteing {attribute} as an attribute from new controlled vocabulary...."
                 )
-                continue
-            elif choice == 'n':
+            elif choice.lower().startswith('n'):
                 print(f"\n\nAdd '{attribute}' to data model and rerun script")
                 exit()
             else:
@@ -168,7 +170,7 @@ def compare_dicts(cv_dict, dm_dict):
             dm_add[k] = v
 
     # Find capital versions of missing terms and corresponding attribute versions of missing terms and print output.
-    if bool(dm_add) == True:
+    if dm_add:
         for k, v in dm_add.items():
             cap_terms = []
             for item in v:
@@ -370,8 +372,6 @@ def main():
         print(
             '\n\nPlease create a snapshot/version of current CV table in synapse before proceeding with upload of updated CV and rerun script.'
         )
-
-        exit()
 
     else:
         print("\n\nNot a valid input.")
