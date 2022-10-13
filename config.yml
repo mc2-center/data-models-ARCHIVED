@@ -27,7 +27,7 @@ manifest:
 
 model:
   input:
-    location: '/Users/bzalmanek/Documents/csbc_schematic/schematic/tests/data/CSBCDataModel.jsonld'
+    location: '/Users/bzalmanek/Documents/csbc_schematic/schematic/tests/data/mc2.model.jsonld'
     file_type: 'local'
 
 style:
