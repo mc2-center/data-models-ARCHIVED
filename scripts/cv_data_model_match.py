@@ -29,7 +29,6 @@ def get_args():
                         help='Synapse controlled vocabulary table id')
     parser.add_argument('--file_path',
                         type=str,
-                        action='store',
                         required=True,
                         help='File path where data model csv is stored')
 
