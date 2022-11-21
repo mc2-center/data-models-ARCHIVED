@@ -14,16 +14,14 @@ synapse:
 
 manifest:
   # if making many manifests, just include name prefix
-  title: 'Manifest'
+  title: 'MC2'
   # to make all manifests enter only 'all manifests'
   data_type: 
     - 'DatasetView'
     - 'GrantView'
     - 'PublicationView'
     - 'ToolView'
-    - 'Consortium'
-    - 'Theme'
-  
+    - 'FileView'
 
 model:
   input:
