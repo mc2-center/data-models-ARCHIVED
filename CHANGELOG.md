@@ -9,6 +9,33 @@ The format is based on [Keep a Changelog] and will adhere to [Semantic Versionin
 Track upcoming/planned changes to the data models.
 - ...
 
+## [2.1.2](https://github.com/mc2-center/data-models/releases/tag/v2.1.2) - 2022-11-21
+
+### Added
+- "HDF" as valid value for Tool Input/Outpuf Format
+- Grants: CA274494, CA267170, CA263001, CA264611, CA271273, CA275808, CA274492, CA274499, CA274502, CA274509 as valid values for Grant Number attributes in the "View" components.
+- "Auburn University" as valid value for Grant Institution Name and "AU" as valid value for Grant Institution Alias
+- "Oncogenic Stress" as theme name to "View" attribute valid values
+- "Publication Abstract" as a required attribute for the Publicatoin and PublicationView components
+- "Project Investigator" as an attribute for Project and Project View components.
+- "Publication Accessibility" attribute with valid values of "Open Access" and "Restricted Access"
+- "Sequence Composition Calculation" as valid value for Tool Operation
+- "Sequence Features" as valid value for Tool Input/Output Data attributes
+- "Metagenomics" as tool Topic valid value
+- "Tissue Microarray" as valid value for Publication/Dataset Tissue
+- "Clear Cell Renal Cell Carcinoma" as valid value for Publication/Datastet TumorType
+- "Peritoneum" as valid value for Publication/Dataset Tissue attribute.
+
+### Changed
+- Capitlization of "Thyroid gland" to "Thyroid Gland" for publication/dataset tissue attributes. 
+
+### Removed
+- "Project Theme Name" from Project View component.
+- "Colorectal Adenoma" from Publication/Dataset Assay and add as valid value for Publication/Dataset TumorType
+
+### Fixed
+- Valid values for attributes that use the same Grant Number values, File Format values, and Assay values so they match.
+
 ## [2.1.1](https://github.com/mc2-center/data-models/releases/tag/v2.1.1) - 2022-09-29
 
 ### Added
