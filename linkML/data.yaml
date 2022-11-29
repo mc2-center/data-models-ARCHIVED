@@ -1,0 +1,10 @@
+grants:
+  - grantName:  GrantB
+    grantNumber: CA234567
+    grantAbstract: The cat says goodbye
+    grantType: U54
+  - grantName: GrantA
+    grantNumber: CA123456
+    grantAbstract: The dog says hello
+    grantType: R01
+

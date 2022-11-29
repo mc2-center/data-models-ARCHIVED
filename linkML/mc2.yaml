@@ -1,0 +1,57 @@
+id: https://github.com/mc2-center/data-models/blob/main/mc2.model.csv
+name: mC2
+prefixes: 
+  linkml: https://w3id.org/linkml/
+imports:
+  - linkml:types
+default_range: string
+
+classes:
+  Grant:
+    description: Consortium grant information
+    slots: 
+    - grantName
+    - grantNumber
+    - grantAbstract
+    - grantType
+  Container:
+    tree_root: true
+    attributes:
+      grants:
+        multivalued: true
+        inlined_as_list: true
+        range: Grant
+
+slots: 
+  grantName:
+    identifier: true ## unique key for a grant
+    description: Name of the grant
+  grantNumber: 
+    required: true # must be supplied
+    description: Number of the grant (i.e. "CA------" format)
+    pattern: '^CA\d{6}$' # regular expression
+  grantAbstract:
+    required: true
+    description: Abstract for the grant
+  grantType:
+    required: true
+    description: Type of grant
+    range: grantTypes # see 'enums' section below
+
+enums:
+  grantTypes:
+    permissible_values:
+        U24:
+        U54:
+        U01:
+        R01:
+        R37:
+        R21:
+
+    
+
+
+
+
+
+
