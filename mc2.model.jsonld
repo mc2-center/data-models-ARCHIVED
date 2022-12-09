@@ -3036,6 +3036,9 @@
                 },
                 {
                     "@id": "bts:SequenceFeatures"
+                },
+                {
+                    "@id": "bts:TrainingMaterial"
                 }
             ],
             "sms:displayName": "Tool Input Data",
@@ -3495,6 +3498,9 @@
                 },
                 {
                     "@id": "bts:SequenceFeatures"
+                },
+                {
+                    "@id": "bts:TrainingMaterial"
                 }
             ],
             "sms:displayName": "Tool Output Data",
@@ -3861,6 +3867,12 @@
                 },
                 {
                     "@id": "bts:HDF"
+                },
+                {
+                    "@id": "bts:Antimony"
+                },
+                {
+                    "@id": "bts:RDS"
                 }
             ],
             "sms:displayName": "Tool Input Format",
@@ -4227,6 +4239,12 @@
                 },
                 {
                     "@id": "bts:HDF"
+                },
+                {
+                    "@id": "bts:Antimony"
+                },
+                {
+                    "@id": "bts:RDS"
                 }
             ],
             "sms:displayName": "Tool Output Format",
@@ -7552,6 +7570,9 @@
                 },
                 {
                     "@id": "bts:TissueMicroarray"
+                },
+                {
+                    "@id": "bts:Allograft"
                 }
             ],
             "sms:displayName": "Publication Assay",
@@ -9686,6 +9707,9 @@
                 },
                 {
                     "@id": "bts:TissueMicroarray"
+                },
+                {
+                    "@id": "bts:Allograft"
                 }
             ],
             "sms:displayName": "Dataset Assay",
@@ -21296,6 +21320,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:TrainingMaterial",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "TrainingMaterial",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ToolInputData"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Training Material",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:DocumentFormat",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -23230,6 +23271,40 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "HDF",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Antimony",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Antimony",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ToolInputFormat"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Antimony",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:RDS",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "RDS",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ToolInputFormat"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "RDS",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -32703,23 +32778,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:TrainingMaterial",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "TrainingMaterial",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ToolDocumentationType"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Training Material",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:DiscussionForum",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -38449,6 +38507,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:Allograft",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Allograft",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationAssay"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Allograft",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:AcinarCellCarcinoma",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -43987,23 +44062,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "mzXML",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:RDS",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "RDS",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:DatasetFileFormats"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "RDS",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },

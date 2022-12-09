@@ -9,6 +9,14 @@ The format is based on [Keep a Changelog] and will adhere to [Semantic Versionin
 Track upcoming/planned changes to the data models.
 - ...
 
+## [2.1.3](https://github.com/mc2-center/data-models/releases/tag/v2.1.3) - 2022-12-09
+
+### Added
+- "Antinomony" as a valid value for Tool Input/Output Format attributes.
+- "Training Material" as valid value for Tool Input/Output Data attributes.
+- "RDS' as valid value for Tool Input/Output Format attributes
+- "Allograft" as Publication/Dataset Assay valid value
+
 ## [2.1.2](https://github.com/mc2-center/data-models/releases/tag/v2.1.2) - 2022-11-21
 
 ### Added
