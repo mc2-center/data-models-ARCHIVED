@@ -3036,6 +3036,9 @@
                 },
                 {
                     "@id": "bts:SequenceFeatures"
+                },
+                {
+                    "@id": "bts:TrainingMaterial"
                 }
             ],
             "sms:displayName": "Tool Input Data",
@@ -3495,6 +3498,9 @@
                 },
                 {
                     "@id": "bts:SequenceFeatures"
+                },
+                {
+                    "@id": "bts:TrainingMaterial"
                 }
             ],
             "sms:displayName": "Tool Output Data",
@@ -3861,6 +3867,12 @@
                 },
                 {
                     "@id": "bts:HDF"
+                },
+                {
+                    "@id": "bts:Antimony"
+                },
+                {
+                    "@id": "bts:RDS"
                 }
             ],
             "sms:displayName": "Tool Input Format",
@@ -4227,6 +4239,12 @@
                 },
                 {
                     "@id": "bts:HDF"
+                },
+                {
+                    "@id": "bts:Antimony"
+                },
+                {
+                    "@id": "bts:RDS"
                 }
             ],
             "sms:displayName": "Tool Output Format",
@@ -7552,6 +7570,12 @@
                 },
                 {
                     "@id": "bts:TissueMicroarray"
+                },
+                {
+                    "@id": "bts:Allograft"
+                },
+                {
+                    "@id": "bts:IsothermalTitrationCalorimetry"
                 }
             ],
             "sms:displayName": "Publication Assay",
@@ -9686,6 +9710,12 @@
                 },
                 {
                     "@id": "bts:TissueMicroarray"
+                },
+                {
+                    "@id": "bts:Allograft"
+                },
+                {
+                    "@id": "bts:IsothermalTitrationCalorimetry"
                 }
             ],
             "sms:displayName": "Dataset Assay",
@@ -9776,6 +9806,9 @@
                 },
                 {
                     "@id": "bts:Sheep"
+                },
+                {
+                    "@id": "bts:FruitFly"
                 }
             ],
             "sms:displayName": "Dataset Species",
@@ -10757,9 +10790,6 @@
                 },
                 {
                     "@id": "bts:Cloupe"
-                },
-                {
-                    "@id": "bts:SRA"
                 },
                 {
                     "@id": "bts:TXT"
@@ -12613,9 +12643,6 @@
                     "@id": "bts:Dataset"
                 },
                 {
-                    "@id": "bts:Consortium"
-                },
-                {
                     "@id": "bts:Grant"
                 },
                 {
@@ -12631,9 +12658,6 @@
                 },
                 {
                     "@id": "bts:ToolGrantNumber"
-                },
-                {
-                    "@id": "bts:ToolConsortiumName"
                 },
                 {
                     "@id": "bts:ToolName"
@@ -13137,60 +13161,6 @@
             ]
         },
         {
-            "@id": "bts:ToolConsortiumName",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Consortium associated with the tool's development. Multiple values permitted, comma separated.",
-            "rdfs:label": "ToolConsortiumName",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "schema:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:CSBC"
-                },
-                {
-                    "@id": "bts:PS-ON"
-                },
-                {
-                    "@id": "bts:TEC"
-                },
-                {
-                    "@id": "bts:ICBP"
-                },
-                {
-                    "@id": "bts:NCI"
-                },
-                {
-                    "@id": "bts:SageBionetworks"
-                },
-                {
-                    "@id": "bts:HTAN"
-                },
-                {
-                    "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
-                },
-                {
-                    "@id": "bts:CCBIR"
-                },
-                {
-                    "@id": "bts:MetNet"
-                },
-                {
-                    "@id": "bts:PDMC"
-                }
-            ],
-            "sms:displayName": "Tool Consortium Name",
-            "sms:required": "sms:true",
-            "sms:validationRules": [
-                "list like"
-            ]
-        },
-        {
             "@id": "bts:ToolPubmedId",
             "@type": "rdfs:Class",
             "rdfs:comment": "The pubMed identifer associated with the development of the tool.",
@@ -13232,12 +13202,6 @@
                     "@id": "bts:Tool"
                 },
                 {
-                    "@id": "bts:Theme"
-                },
-                {
-                    "@id": "bts:Consortium"
-                },
-                {
                     "@id": "bts:Grant"
                 },
                 {
@@ -13250,12 +13214,6 @@
                 },
                 {
                     "@id": "bts:PublicationGrantNumber"
-                },
-                {
-                    "@id": "bts:PublicationConsortiumName"
-                },
-                {
-                    "@id": "bts:PublicationThemeName"
                 },
                 {
                     "@id": "bts:PublicationDoi"
@@ -13717,135 +13675,6 @@
             ]
         },
         {
-            "@id": "bts:PublicationConsortiumName",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The name of the consortium associated with the publicatoin's development. Multiple values permitted, comma separated.",
-            "rdfs:label": "PublicationConsortiumName",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "schema:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:CSBC"
-                },
-                {
-                    "@id": "bts:PS-ON"
-                },
-                {
-                    "@id": "bts:TEC"
-                },
-                {
-                    "@id": "bts:ICBP"
-                },
-                {
-                    "@id": "bts:NCI"
-                },
-                {
-                    "@id": "bts:SageBionetworks"
-                },
-                {
-                    "@id": "bts:HTAN"
-                },
-                {
-                    "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
-                },
-                {
-                    "@id": "bts:CCBIR"
-                },
-                {
-                    "@id": "bts:MetNet"
-                },
-                {
-                    "@id": "bts:PDMC"
-                }
-            ],
-            "sms:displayName": "Publication Consortium Name",
-            "sms:required": "sms:true",
-            "sms:validationRules": [
-                "list like"
-            ]
-        },
-        {
-            "@id": "bts:PublicationThemeName",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The name of the them associated with the publication's development. Multiple values permitted, comma separated.",
-            "rdfs:label": "PublicationThemeName",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "schema:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:Metastasis"
-                },
-                {
-                    "@id": "bts:Heterogeneity"
-                },
-                {
-                    "@id": "bts:Microenvironment"
-                },
-                {
-                    "@id": "bts:Metabolism"
-                },
-                {
-                    "@id": "bts:ComputationalResource"
-                },
-                {
-                    "@id": "bts:Evolution"
-                },
-                {
-                    "@id": "bts:Tumor-Immune"
-                },
-                {
-                    "@id": "bts:DrugResistance/Sensitivity"
-                },
-                {
-                    "@id": "bts:Epigenetics"
-                },
-                {
-                    "@id": "bts:Mechano-genetics"
-                },
-                {
-                    "@id": "bts:Immunotherapy"
-                },
-                {
-                    "@id": "bts:Mechano-resistance"
-                },
-                {
-                    "@id": "bts:ComputationalModelDevelopment"
-                },
-                {
-                    "@id": "bts:Method/AssayDevelopment"
-                },
-                {
-                    "@id": "bts:PlatformDevelopment"
-                },
-                {
-                    "@id": "bts:ExperimentalModelDevelopment"
-                },
-                {
-                    "@id": "bts:TumorProgression"
-                },
-                {
-                    "@id": "bts:OncogenicStress"
-                }
-            ],
-            "sms:displayName": "Publication Theme Name",
-            "sms:required": "sms:true",
-            "sms:validationRules": [
-                "list like"
-            ]
-        },
-        {
             "@id": "bts:PublicationDatasetAlias",
             "@type": "rdfs:Class",
             "rdfs:comment": "A list of the dataset aliases (An alias of the dataset must be unique. Can be the GEO identifier such as GSE12345, or a DOI. No Greek Letters) associated with the publication. Multiple values permitted, comma separated.",
@@ -13887,12 +13716,6 @@
                     "@id": "bts:Grant"
                 },
                 {
-                    "@id": "bts:Consortium"
-                },
-                {
-                    "@id": "bts:Theme"
-                },
-                {
                     "@id": "bts:Dataset"
                 }
             ],
@@ -13905,12 +13728,6 @@
                 },
                 {
                     "@id": "bts:DatasetGrantNumber"
-                },
-                {
-                    "@id": "bts:DatasetConsortiumName"
-                },
-                {
-                    "@id": "bts:DatasetThemeName"
                 },
                 {
                     "@id": "bts:DatasetName"
@@ -14354,135 +14171,6 @@
                 }
             ],
             "sms:displayName": "Dataset Grant Number",
-            "sms:required": "sms:true",
-            "sms:validationRules": [
-                "list like"
-            ]
-        },
-        {
-            "@id": "bts:DatasetConsortiumName",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Consortium(s) associated with the dataset's development. Multiple values permitted, comma separated.",
-            "rdfs:label": "DatasetConsortiumName",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "schema:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:CSBC"
-                },
-                {
-                    "@id": "bts:PS-ON"
-                },
-                {
-                    "@id": "bts:TEC"
-                },
-                {
-                    "@id": "bts:ICBP"
-                },
-                {
-                    "@id": "bts:NCI"
-                },
-                {
-                    "@id": "bts:SageBionetworks"
-                },
-                {
-                    "@id": "bts:HTAN"
-                },
-                {
-                    "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
-                },
-                {
-                    "@id": "bts:CCBIR"
-                },
-                {
-                    "@id": "bts:MetNet"
-                },
-                {
-                    "@id": "bts:PDMC"
-                }
-            ],
-            "sms:displayName": "Dataset Consortium Name",
-            "sms:required": "sms:true",
-            "sms:validationRules": [
-                "list like"
-            ]
-        },
-        {
-            "@id": "bts:DatasetThemeName",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Theme(s) associated with the dataset's development. Multiple values permitted, comma separated.",
-            "rdfs:label": "DatasetThemeName",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "schema:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:Metastasis"
-                },
-                {
-                    "@id": "bts:Heterogeneity"
-                },
-                {
-                    "@id": "bts:Microenvironment"
-                },
-                {
-                    "@id": "bts:Metabolism"
-                },
-                {
-                    "@id": "bts:ComputationalResource"
-                },
-                {
-                    "@id": "bts:Evolution"
-                },
-                {
-                    "@id": "bts:Tumor-Immune"
-                },
-                {
-                    "@id": "bts:DrugResistance/Sensitivity"
-                },
-                {
-                    "@id": "bts:Epigenetics"
-                },
-                {
-                    "@id": "bts:Mechano-genetics"
-                },
-                {
-                    "@id": "bts:Immunotherapy"
-                },
-                {
-                    "@id": "bts:Mechano-resistance"
-                },
-                {
-                    "@id": "bts:ComputationalModelDevelopment"
-                },
-                {
-                    "@id": "bts:Method/AssayDevelopment"
-                },
-                {
-                    "@id": "bts:PlatformDevelopment"
-                },
-                {
-                    "@id": "bts:ExperimentalModelDevelopment"
-                },
-                {
-                    "@id": "bts:TumorProgression"
-                },
-                {
-                    "@id": "bts:OncogenicStress"
-                }
-            ],
-            "sms:displayName": "Dataset Theme Name",
             "sms:required": "sms:true",
             "sms:validationRules": [
                 "list like"
@@ -16341,12 +16029,6 @@
                     "@id": "bts:Project"
                 },
                 {
-                    "@id": "bts:Theme"
-                },
-                {
-                    "@id": "bts:Consortium"
-                },
-                {
                     "@id": "bts:Grant"
                 }
             ],
@@ -16373,58 +16055,6 @@
                     "@id": "bts:ProjectGrantNumber"
                 }
             ],
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ProjectConsortiumName",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The consortium associated with the project 1...1",
-            "rdfs:label": "ProjectConsortiumName",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "schema:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:CSBC"
-                },
-                {
-                    "@id": "bts:PS-ON"
-                },
-                {
-                    "@id": "bts:TEC"
-                },
-                {
-                    "@id": "bts:ICBP"
-                },
-                {
-                    "@id": "bts:NCI"
-                },
-                {
-                    "@id": "bts:SageBionetworks"
-                },
-                {
-                    "@id": "bts:HTAN"
-                },
-                {
-                    "@id": "bts:NCIClinicalandTranslationalExploratory/DevelopmentalStudies"
-                },
-                {
-                    "@id": "bts:CCBIR"
-                },
-                {
-                    "@id": "bts:MetNet"
-                },
-                {
-                    "@id": "bts:PDMC"
-                }
-            ],
-            "sms:displayName": "Project Consortium Name",
-            "sms:required": "sms:true",
             "sms:validationRules": []
         },
         {
@@ -21296,6 +20926,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:TrainingMaterial",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "TrainingMaterial",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ToolInputData"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Training Material",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:DocumentFormat",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -23230,6 +22877,40 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "HDF",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Antimony",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Antimony",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ToolInputFormat"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Antimony",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:RDS",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "RDS",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ToolInputFormat"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "RDS",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -32703,23 +32384,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:TrainingMaterial",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "TrainingMaterial",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ToolDocumentationType"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Training Material",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:DiscussionForum",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -38449,6 +38113,40 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:Allograft",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Allograft",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationAssay"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Allograft",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IsothermalTitrationCalorimetry",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IsothermalTitrationCalorimetry",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PublicationAssay"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Isothermal Titration Calorimetry",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:AcinarCellCarcinoma",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -43702,6 +43400,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:FruitFly",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "FruitFly",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DatasetSpecies"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Fruit Fly",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:SRA",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -43987,23 +43702,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "mzXML",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:RDS",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "RDS",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:DatasetFileFormats"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "RDS",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -47992,7 +47690,7 @@
             "rdfs:label": "CSBC",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ToolConsortiumName"
+                    "@id": "bts:PersonConsortiumName"
                 }
             ],
             "schema:isPartOf": {
@@ -48009,7 +47707,7 @@
             "rdfs:label": "PS-ON",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ToolConsortiumName"
+                    "@id": "bts:PersonConsortiumName"
                 }
             ],
             "schema:isPartOf": {
@@ -48026,7 +47724,7 @@
             "rdfs:label": "TEC",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ToolConsortiumName"
+                    "@id": "bts:PersonConsortiumName"
                 }
             ],
             "schema:isPartOf": {
@@ -48043,7 +47741,7 @@
             "rdfs:label": "ICBP",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ToolConsortiumName"
+                    "@id": "bts:PersonConsortiumName"
                 }
             ],
             "schema:isPartOf": {
@@ -48060,7 +47758,7 @@
             "rdfs:label": "NCI",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ToolConsortiumName"
+                    "@id": "bts:PersonConsortiumName"
                 }
             ],
             "schema:isPartOf": {
@@ -48077,7 +47775,7 @@
             "rdfs:label": "SageBionetworks",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ToolConsortiumName"
+                    "@id": "bts:PersonConsortiumName"
                 }
             ],
             "schema:isPartOf": {
@@ -48094,7 +47792,7 @@
             "rdfs:label": "HTAN",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ToolConsortiumName"
+                    "@id": "bts:PersonConsortiumName"
                 }
             ],
             "schema:isPartOf": {
@@ -48111,7 +47809,7 @@
             "rdfs:label": "NCIClinicalandTranslationalExploratory/DevelopmentalStudies",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ToolConsortiumName"
+                    "@id": "bts:PersonConsortiumName"
                 }
             ],
             "schema:isPartOf": {
@@ -48128,7 +47826,7 @@
             "rdfs:label": "CCBIR",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ToolConsortiumName"
+                    "@id": "bts:PersonConsortiumName"
                 }
             ],
             "schema:isPartOf": {
@@ -48145,7 +47843,7 @@
             "rdfs:label": "MetNet",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ToolConsortiumName"
+                    "@id": "bts:PersonConsortiumName"
                 }
             ],
             "schema:isPartOf": {
@@ -48162,7 +47860,7 @@
             "rdfs:label": "PDMC",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ToolConsortiumName"
+                    "@id": "bts:PersonConsortiumName"
                 }
             ],
             "schema:isPartOf": {
@@ -48179,7 +47877,7 @@
             "rdfs:label": "Metastasis",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48196,7 +47894,7 @@
             "rdfs:label": "Heterogeneity",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48213,7 +47911,7 @@
             "rdfs:label": "Microenvironment",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48230,7 +47928,7 @@
             "rdfs:label": "Metabolism",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48247,7 +47945,7 @@
             "rdfs:label": "ComputationalResource",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48264,7 +47962,7 @@
             "rdfs:label": "Evolution",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48281,7 +47979,7 @@
             "rdfs:label": "Tumor-Immune",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48298,7 +47996,7 @@
             "rdfs:label": "DrugResistance/Sensitivity",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48315,7 +48013,7 @@
             "rdfs:label": "Mechano-genetics",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48332,7 +48030,7 @@
             "rdfs:label": "Immunotherapy",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48349,7 +48047,7 @@
             "rdfs:label": "Mechano-resistance",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48366,7 +48064,7 @@
             "rdfs:label": "ComputationalModelDevelopment",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48383,7 +48081,7 @@
             "rdfs:label": "Method/AssayDevelopment",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48400,7 +48098,7 @@
             "rdfs:label": "PlatformDevelopment",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48417,7 +48115,7 @@
             "rdfs:label": "ExperimentalModelDevelopment",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48434,7 +48132,7 @@
             "rdfs:label": "TumorProgression",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -48451,7 +48149,7 @@
             "rdfs:label": "OncogenicStress",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:PublicationThemeName"
+                    "@id": "bts:GrantThemeName"
                 }
             ],
             "schema:isPartOf": {
@@ -51042,6 +50740,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "AU",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ProjectConsortiumName",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ProjectConsortiumName",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ProjectView"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Project Consortium Name",
             "sms:required": "sms:false",
             "sms:validationRules": []
         }

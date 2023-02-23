@@ -9,6 +9,22 @@ The format is based on [Keep a Changelog] and will adhere to [Semantic Versionin
 Track upcoming/planned changes to the data models.
 - ...
 
+## [2.1.3](https://github.com/mc2-center/data-models/releases/tag/v2.1.3) - 2023-02-22
+
+### Added
+- "Antinomony" as a valid value for Tool Input/Output Format attributes.
+- "Training Material" as valid value for Tool Input/Output Data attributes.
+- "RDS' as valid value for Tool Input/Output Format attributes
+- "Allograft" as Publication/Dataset Assay valid value
+- "Isothermal Titration Calorimetry" as valid value for Publication/Dataset Assay attributes
+- "Fruit Fly" to Dataset Species attribute
+
+### Removed
+- "Dataset Theme Name" and "Publication Theme Name" attributes from the Dataset and Publication components, respectively.
+- Dataset, Publication, Tool, and Project "Consortium Name" attributes from their corresponding components.
+- "Theme" and "Consortium" from DependsOnComponents and DependsOn for Datasets, Publications, Tools, and Projects
+- Duplicated "SRA" value from dataset file formats
+
 ## [2.1.2](https://github.com/mc2-center/data-models/releases/tag/v2.1.2) - 2022-11-21
 
 ### Added
